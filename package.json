@@ -1,0 +1,13 @@
+{
+  "name": "nomadcoder-Momentum",
+  "version": "1.0.0",
+  "description": "Clone Coding Repository for 'JavaScript for Beginner' Course of NomadCoder",
+  "keywords": ["Momentum"],
+  "author": "Do-Hoon Kim",
+  "main": "/index.html",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bsstayo/nomadcoder-Momentum"
+  }
+}
