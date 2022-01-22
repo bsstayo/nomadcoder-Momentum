@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 #center_elements {
   width: 150px;
   height: 50px;
