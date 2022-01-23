@@ -3,5 +3,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 const IMG_WAY = `./../../img/${chosenImage}`;
 //https://bsstayo.github.io/nomadcoder-Momentum/img/0.jpg
 
-//document.body.style.backgroundImage = `url(${IMG_WAY})`;
 document.body.style.backgroundImage = `url(https://bsstayo.github.io/nomadcoder-Momentum/img/${chosenImage})`;
