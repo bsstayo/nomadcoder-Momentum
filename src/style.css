@@ -1,5 +1,10 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  weight: 100%;
+  width: 100%;
   height: 100%;
   font-family: sans-serif;
 }
@@ -9,9 +14,12 @@ body {
 }
 
 #center_elements {
-  width: 150px;
-  height: 50px;
-  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #clock {
@@ -19,4 +27,8 @@ body {
 }
 
 #weather {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
 }
